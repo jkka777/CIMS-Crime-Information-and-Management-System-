@@ -5,6 +5,10 @@ Description
 The aim of this application is to maintain and manage the detail information of the crime that has happened under a particular police station.
 This software will be used by the Police officials as admin and Citizens as normal users.
 
+<div>
+  <img src="src/information/CIMS.png" alt="application-interface"/>
+</div>
+
 Police officials can login using with user name "admin" and password "admin",
 Once any official logs in to system he can see the available options to choose, then enter the corresponding digit to view the feature.
 
