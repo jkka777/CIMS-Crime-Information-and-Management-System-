@@ -12,3 +12,15 @@ Criminal Registry structure
 | firstArrestedAreaPS | varchar(24)  | NO   |     | NULL    |                |
 | firstAttachedCrime  | varchar(24)  | NO   |     | NULL    |                |
 +---------------------+--------------+------+-----+---------+----------------+
+
+
+model database
+
++------------+--------------+-------------+----------------+-----------------+-------------------------+---------------------+--------------------+
+| criminalId | criminalName | criminalAge | criminalGender | criminalAddress | identificationMarks     | firstArrestedAreaPS | firstAttachedCrime |
++------------+--------------+-------------+----------------+-----------------+-------------------------+---------------------+--------------------+
+|          1 | gangu        |          40 | male           | chopda          | a mole on nose          | indore              | murder             |
+|          2 | shobaraj     |          50 | male           | london          | white caucasian         | jaiput              | robbery            |
+|          3 | dawood       |          60 | male           | lahore          | cute uncle              | mumbai              | terror             |
+|          4 | phulandevi   |          40 | female         | chambal         | short and shot tempered | indore              | robbery            |
++------------+--------------+-------------+----------------+-----------------+-------------------------+---------------------+--------------------+
