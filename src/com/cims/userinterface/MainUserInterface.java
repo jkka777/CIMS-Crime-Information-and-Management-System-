@@ -130,30 +130,30 @@ public class MainUserInterface {
 						switch (aChoice) {
 						case 1:
 
-							System.out.println("enter the date when crime happend in YYYY-MM-DD format");
+							System.out.println("Enter the date when crime happend in YYYY-MM-DD format");
 							String date = scanner.next();
 
-							System.out.println("enter the place");
+							System.out.println("Enter the place of crime");
 							String place = scanner.next();
 
-							System.out.println("enter the type of crime");
+							System.out.println("Enter the type of crime (robbery, homicide, abduction etc,.)");
 							String type = scanner.next();
 
-							System.out.println("enter the victim name if there are multiple enter the "
+							System.out.println("Enter the victim name if there are multiple enter the "
 									+ "names with (,) separator without spaces");
 							Scanner s = new Scanner(System.in);
 							String victim = s.nextLine();
 
-							System.out.println("enter the details of crime");
+							System.out.println("Enter the details of crime");
 							String details = s.nextLine();
 
-							System.out.println("enter the suspect name, if name is not known type 'un-known'!");
+							System.out.println("Enter the suspect name, if name is not known type 'un-known'!");
 							String suspect = scanner.next();
 
-							System.out.println("enter the crime status");
+							System.out.println("Enter the crime status 'pending' or 'solved'");
 							String status = scanner.next();
 
-							System.out.println("enter the nearby police station name");
+							System.out.println("Enter the nearby police station name");
 							String psName = scanner.next();
 
 							CrimeIntr cint = new CrimeIntrImpl();
@@ -170,7 +170,7 @@ public class MainUserInterface {
 							try {
 								List Stationlist = cintrA_2.viewPoliceStation();
 
-								System.out.println('\n' + "List of police stations" + '\n');
+								System.out.println('\n' + "List of Police stations" + '\n');
 
 								for (int i = 0; i < Stationlist.size(); i++) {
 									System.out.println(Stationlist.get(i));
@@ -204,7 +204,7 @@ public class MainUserInterface {
 
 						case 4:
 
-							System.out.println("enter the crminal name you wish you to see the record of");
+							System.out.println("Enter the crminal name you wish you to see the record of");
 							String cName = scanner.next();
 
 							CrimeIntr cintrA_4 = new CrimeIntrImpl();
@@ -236,7 +236,7 @@ public class MainUserInterface {
 
 						case 6:
 
-							System.out.println("enter the police station name you wish you to see the record of");
+							System.out.println("Enter the Police station name you wish you to see the record of");
 							String psname = scanner.next();
 
 							CrimeIntr cintrA_6 = new CrimeIntrImpl();
@@ -352,13 +352,13 @@ public class MainUserInterface {
 
 							CrimeIntr cintrA_12 = new CrimeIntrImpl();
 
-							System.out.println("enter the date when crime happend in YYYY-MM-DD format");
+							System.out.println("Enter the date when crime happend in YYYY-MM-DD format");
 							String statuschangeDate1 = scanner.next();
 
-							System.out.println("enter the place");
+							System.out.println("Enter the place");
 							String statusChagnePlace1 = scanner.next();
 
-							System.out.println("enter the type of crime");
+							System.out.println("Enter the crime category (robbery, abduction, homicide etc,.)");
 							String statusChagneCrime1 = scanner.next();
 
 							String statusChangeResult = cintrA_12.changeStatusOfCrimePendingToSolved(statuschangeDate1,
@@ -445,10 +445,10 @@ public class MainUserInterface {
 					System.out.println("Please enter your email Id");
 					String userEmail = scanner.next();
 
-					System.out.println("enter password");
+					System.out.println("Enter password");
 					String userPass = scanner.next();
 
-					System.out.println("enter city");
+					System.out.println("Enter city");
 					String userCity = scanner.next();
 
 					UserIntr ui = new UserIntrImpl();
@@ -492,10 +492,10 @@ public class MainUserInterface {
 							System.out.println("Enter the crime location");
 							String place = scanner.next();
 
-							System.out.println("Enter the type of crime (robbery, homicide etc,.)");
+							System.out.println("Enter the category of crime (robbery, homicide etc,.)");
 							String type = scanner.next();
 
-							System.out.println("enter the victim name if there are multiple enter the "
+							System.out.println("Enter the victim name if there are multiple enter the "
 									+ "names with (,) separator without spaces");
 
 							Scanner s = new Scanner(System.in);
@@ -522,13 +522,13 @@ public class MainUserInterface {
 
 						case 2:
 
-							System.out.println("enter the date when crime happend in YYYY-MM-DD format");
+							System.out.println("Enter the date when crime happend in YYYY-MM-DD format");
 							String dateU = scanner.next();
 
-							System.out.println("enter the place");
+							System.out.println("Enter the place");
 							String placeU = scanner.next();
 
-							System.out.println("enter the type of crime");
+							System.out.println("Enter the type of crime");
 							String crimeU = scanner.next();
 
 							UserIntr userInnrU_2 = new UserIntrImpl();
@@ -539,7 +539,7 @@ public class MainUserInterface {
 
 							break;
 						default:
-							System.out.println("Invalid choice");
+							System.out.println("Invalid choice! Please try again..");
 						}
 
 					} catch (UserException e) {
