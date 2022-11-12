@@ -1,0 +1,14 @@
+Criminal Registry structure
+
++---------------------+--------------+------+-----+---------+----------------+
+| Field               | Type         | Null | Key | Default | Extra          |
++---------------------+--------------+------+-----+---------+----------------+
+| criminalId          | int          | NO   | PRI | NULL    | auto_increment |
+| criminalName        | varchar(24)  | YES  |     | NULL    |                |
+| criminalAge         | int          | YES  |     | NULL    |                |
+| criminalGender      | varchar(12)  | NO   |     | NULL    |                |
+| criminalAddress     | varchar(24)  | YES  |     | NULL    |                |
+| identificationMarks | varchar(150) | NO   |     | NULL    |                |
+| firstArrestedAreaPS | varchar(24)  | NO   |     | NULL    |                |
+| firstAttachedCrime  | varchar(24)  | NO   |     | NULL    |                |
++---------------------+--------------+------+-----+---------+----------------+

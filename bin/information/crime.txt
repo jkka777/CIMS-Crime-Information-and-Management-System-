@@ -1,0 +1,15 @@
+Crime registry structure
+
++---------------+--------------+------+-----+---------+----------------+
+| Field         | Type         | Null | Key | Default | Extra          |
++---------------+--------------+------+-----+---------+----------------+
+| crimeId       | int          | NO   | PRI | NULL    | auto_increment |
+| crimeDate     | date         | NO   |     | NULL    |                |
+| crimeLocation | varchar(24)  | NO   |     | NULL    |                |
+| crimeType     | varchar(24)  | NO   |     | NULL    |                |
+| victimName    | varchar(60)  | YES  |     | NULL    |                |
+| crimeDetails  | varchar(200) | YES  |     | NULL    |                |
+| suspectName   | varchar(24)  | YES  |     | NULL    |                |
+| policeStation | varchar(24)  | NO   |     | NULL    |                |
+| crimeStatus   | varchar(12)  | NO   |     | pending |                |
++---------------+--------------+------+-----+---------+----------------+
