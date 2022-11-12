@@ -1,18 +1,18 @@
-Crime information management system (console based project)
+<h2>Crime Information and Management System (A console based application)</h2>
 
-Description
+<h4>Description</h4>
 
-The aim of this application is to maintain and manage the detail information of the crime that has happened under a particular police station.
+The aim of this application is to maintain and manage the detailed information of the crime that has happened under a particular police station.
 This software will be used by the Police officials as admin and Citizens as normal users.
-
+<br>
 <div>
   <img src="src/information/CIMS.png" alt="application-interface"/>
 </div>
-
+<br>
 Police officials can login using with user name "admin" and password "admin",
 Once any official logs in to system he can see the available options to choose, then enter the corresponding digit to view the feature.
 
-The following are the present features for Police officials
+<h4>The following are the present features for Police officials</h4>
 
 1. Record a crime - Register the crime by entering the details such as crime category, crime location, victim name, suspect name, date of crime etc,.
 2. View the list of Police stations listed in crime database
@@ -27,18 +27,18 @@ The following are the present features for Police officials
 11. Display all Cases - Lists all crimes recorded in crime database
 12. Change the status of a case from 'pending' to 'solved'(use small cases only) - Police officials can change the status of crime 'pending' to 'solved' once they close the case with suspect caught.
 13. Record a Criminal in Criminal database - Register a criminal and his details
-14. Display all criminal records available - Displays all the criminal list recorded in criminal database.
+14. Display all criminal records available - Displays all the criminal list recorded in criminal database
 
 Citizens need to register with their email and then login
 
-The following are the features for citizens
+<h4>The following are the features for citizens</h4>
 
 1. Report a crime - User can report crime by entering the details such as crime category, crime location, victim name, suspect name, date of crime etc,.
 2. Check the status of crime - Shows the status of reported crime 'solved' or 'pending'. User should enter the Date of crime, crime location, crime category to get the status of crime.
 
-Languages used - java, MySQL
+<h4>Languages used</h4> - java, MySQL
 
-Tools used to build this application - Spring tool suite, MySQL, GitHub
+<h4>Tools used to build this application</h4> - Spring tool suite, MySQL, GitHub
 
 To get this project you need to clone this repository to your local system and run it on STS and MySQL.
 
