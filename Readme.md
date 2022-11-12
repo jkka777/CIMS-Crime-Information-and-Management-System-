@@ -43,5 +43,5 @@ java, MySQL
 Spring tool suite, MySQL, GitHub
 
 To get this application you need to clone this repository to your local system and run it on STS and MySQL.
-Sample database structure is given in information folder kindly check it.
+Sample database structure is given in src/information folder kindly check it.
 
