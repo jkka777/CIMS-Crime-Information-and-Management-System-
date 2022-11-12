@@ -36,9 +36,12 @@ Citizens need to register with their email and then login
 1. Report a crime - User can report crime by entering the details such as crime category, crime location, victim name, suspect name, date of crime etc,.
 2. Check the status of crime - Shows the status of reported crime 'solved' or 'pending'. User should enter the Date of crime, crime location, crime category to get the status of crime.
 
-<h4>Languages used</h4> - java, MySQL
+<h4>Languages used</h4>
+java, MySQL
 
-<h4>Tools used to build this application</h4> - Spring tool suite, MySQL, GitHub
+<h4>Tools used to build this application</h4>
+Spring tool suite, MySQL, GitHub
 
-To get this project you need to clone this repository to your local system and run it on STS and MySQL.
+To get this application you need to clone this repository to your local system and run it on STS and MySQL.
+Sample database structure is given in information folder kindly check it.
 
