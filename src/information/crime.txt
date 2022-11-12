@@ -1,4 +1,4 @@
-crime structure
+Crime registry structure
 
 +---------------+--------------+------+-----+---------+----------------+
 | Field         | Type         | Null | Key | Default | Extra          |
@@ -13,16 +13,3 @@ crime structure
 | policeStation | varchar(24)  | NO   |     | NULL    |                |
 | crimeStatus   | varchar(12)  | NO   |     | pending |                |
 +---------------+--------------+------+-----+---------+----------------+
-
-
-create table crimeInformation(
-crimeId int not null unique auto_increment,
-crimeDate date not null,
-crimeLocation varchar(24) not null,
-crimeType varchar(24) not null,
-victimName varchar(60),
-crimeDetails varchar(200),
-suspectName varchar(24),
-policeStation varchar(24) not null,
-crimeStatus varchar(12) not null default 'pending'
-);
